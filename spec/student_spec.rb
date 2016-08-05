@@ -60,7 +60,7 @@ describe Student do
     end
   end
 
-  describe '.new_from_db' do
+  describe 'c' do
     it 'creates an instance with corresponding attribute values' do
       row = [1, "Pat", 12]
       pat = Student.new_from_db(row)
